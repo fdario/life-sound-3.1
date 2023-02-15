@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(img/fundo.png);
+    font-family: 'Racing Sans One', cursive;
+    color: #ffffff;
+}
+
+.inicio {
+    background-image: linear-gradient(#000000, #00000080,  #00000000);
+    height: 95vh;
+}
+
+.cabecalho {
+    background-color: #060606;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cabecalho p{
+    font-family: 'Racing Sans One', sans-serif;
+    font-size: 3vh;
+}
+
+div.menu{
+    display: flex;
+    gap: 5vh;
+}
+
+div.menu a {
+    color: #ffffffe2;
+    text-decoration: none;
+}
+div.menu a:hover {
+    color: #7c7c7ce2;
+    text-decoration: underline;
+}
+
+.primeiras-informacoes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+}
+
+.primeiras-informacoes img{
+    margin:15px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 5% 5% 0% 5%;
+}
+
+.titulo p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    width: 350px;
+}
+.texto p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    width: 350px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#logo {
+    width: 10vh;
+    border-radius: 20px;
+}
+
+#nome-loja {
+    color: #ffffff;
+    font-size: 12vh;
+    padding: 0px 0px 0px 0px;
+}
+
+.corpo{
+    background-color: #ededed;
+}
+
+div.conteudo {
+    padding: 50px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #000;
+    border-radius: 15px;
+}
+
+.paragrafo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.texto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+picture {
+    display: block;
+    flex-wrap: wrap;
+}
+
+li {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.linha {
+    width: 100%;
+    border: 1px solid #48484894;
+}
+
+.linha2{
+    height: 100%;
+    border: 1px solid hsla(0, 72%, 49%, 0.58);
+}
+
+ul {
+    padding-right: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image:linear-gradient(#00000000, #000000);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-bottom: 15px;
+}
+
+li.social {
+    font-size: 3vh;
+    list-style: none;
+}
+
+#local {
+    width: 40vh;
+    border-radius: 15px;
+}
+
+div.info-local {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+p.info-local {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.mini-logo-instagram {
+    height: 8vh;
+}
+
+.mini-logo-whatsapp {
+    height: 7vh;
+    padding: 4px;
+}
+
+.lista-servicos{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-color: #fff;
+    border-style: solid;
+    border-width: 1px; 
+    border-radius: 15px;
+    padding: 2px;
+}
+
+#link-redes {
+    color: #fff;
+    text-decoration: none;
+}
+
+.redes:hover {
+    background-color: #484848;
+}
+
+label {
+    font-size: 5vh;
+}
+
+.info-local p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
